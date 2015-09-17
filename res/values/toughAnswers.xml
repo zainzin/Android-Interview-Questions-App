@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="toughAnswers">
+        <item > Views are the UI controls that display data and provide user interaction. All UI controls, including the layout classes, are derived for View. Android provides several layout classes, called View Groups, which can contain multiple Views to help you layout your UIs. Fragments are used to encapsulate segments of your UI, making it simple to create dynamic interfaces that can be rearranged to optimize your layouts for different screen sizes and orientations. 
+            </item>
+            <item > The name of Android’s Virtual machine.Traditional JAVA Virtual machine (VM)  as Java ME (Java Mobile Edition), Android uses its own custom VM designed to ensure that multiple instances run efficiently on a single device.
+
+The Dalvik VM uses the device’s underlying Linux kernel to handle low-level functionality including security, threading and process and memory management.
+
+The Dalvik VM is an interpreter only virtual lmachine that executes file in the Dalvik Executable (.dex) format, a format that is optimized for efficient storage and memory mappable execution. The Virtual machine is register-based and it can run classed compiled by a java language compiler that have been transformed into its native format using the included “dx” tool.
+                </item>
+              <item >
+                  A Fragment represents a behavior or a portion of user interface  in a activity you can combine multiple fragments in a single activity to build a multi-pane UI and reuse a fragment activities.
+
+Fragment is a part of an activity, which contributes its own UI to that activity. Fragment thought like a sub activity.An activity may contain zero or more number of fragments based on screen size.One more most important point of fragment we can reuse fragment in multiple activities. We can’t use fragment independently. It should always part of an activity.
+              </item>
+              <item > An implicit Intent is a mechanism that lets anonymous application  service action requests.That means you can ask the 
+                  systems to launch an Activity that can perform a given action without knowing which application or Activity will do so.
+
+When constructing a new implicit Intent to use with startAcitivity, we nominate an action to perform and optionally supply the URI of data to perform that action on. to You can also send additional data to the target Activity by adding extras to the Intent.
+
+for example to let users make calls form your application you could implement a new dialer or you cloud use an implicit Intent that requests the action(dialing) be performed on a phone number. Send msg using Gmail, SMS service  or Whatsapp or Open doc file any other application is also a Implicit Intents.
+</item>
+<item > The NotificationManager class notifies a user that events have taken place. They can appear on the status bar at the top of the screen. Notification items can contain various views and are identified by icons you provide. The user can slide down the notification list to view notifications. The Task Reminder application uses the NotificationManager class to handle alarms.</item>
+          
+    </string-array>
+</resources>

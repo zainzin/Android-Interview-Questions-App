@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array 
+        name="simpleQues">
+        <item> What is android?  </item>
+        <item> What is an Activity  </item>
+        <item> What is Intent?  </item>
+        <item> Different kinds of intetns?  </item>
+        <item> What is explicit intent?  </item>
+         <item> What is Broadcast intents?  </item>
+         <item > What is Toast in Android? </item>
+        
+    </string-array>
+</resources>

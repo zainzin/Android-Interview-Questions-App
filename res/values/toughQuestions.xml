@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="toughQuestions">
+        <item > What is View in Android? </item>
+        <item > What is Dalvik Virtual Machine? </item>
+        <item > What is Fragments in Android? </item>
+        <item > Android Implicit Intents and Late Runtime Bin </item>
+        <item > What is Notification Manager in Android? </item>
+        
+    </string-array>
+</resources>
